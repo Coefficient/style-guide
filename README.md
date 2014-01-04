@@ -1,4 +1,4 @@
-# Front end Style Guide
+# Front End Style Guide
 
 ### Index
 
