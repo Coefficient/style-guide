@@ -1,4 +1,4 @@
-# Personal Style Guide
+# Front end Style Guide
 
 ### Index
 
