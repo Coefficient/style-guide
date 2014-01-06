@@ -4,11 +4,12 @@
 
 1. Use 4 space indentation per tab.
 2. There should be exactly one space before and after the parenthesis in a function declaration or conditional.
-3. Alawys start your curley braces on the same line as the thing they opening.
+3. Always start your curley braces on the same line as the thing they opening.
 4. Break up object literals into multiple lines for readability.
 5. Any function that returns a boolean or is truthy should be named in such a way that it is immediatly apparent. For example, `is`, `has`, `should`, etc.
 6. Define variables at the top of the scope they are going to be used in.
 7. [Camel case](http://en.wikipedia.org/wiki/CamelCase) all your variables and things.
+8. __Don't__ rely on implicit semi-colon insertion. Do it yourself. For a good read on why relying on implcit semi-colon insertion is bad practice, [read this](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml?showone=Semicolons#Semicolons)
 
 ### Wrong way to write JavaScript
 
