@@ -9,17 +9,18 @@
 5. Any function that returns a boolean or is truthy should be named in such a way that it is immediatly apparent. For example, `is`, `has`, `should`, etc.
 6. Define variables at the top of the scope they are going to be used in.
 7. [Camel case](http://en.wikipedia.org/wiki/CamelCase) all your variables and things.
-8. __Don't__ rely on implicit semi-colon insertion. Do it yourself. For a good read on why relying on implcit semi-colon insertion is bad practice, [read this](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml?showone=Semicolons#Semicolons)
+8. __Don't__ rely on implicit semi-colon insertion. Do it yourself. For a good read on why relying on implcit semi-colon insertion is bad practice, [read this](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml?showone=Semicolons#Semicolons).
+9. Strings should be in single quotes.
 
 ### Wrong way to write JavaScript
 
 ```javascript
 if(foo){
-    console.log('It\'s a bit cramped here');
+  console.log("It's a bit cramped here");
 }
 
 function property_check(object, property){
-    if (object.hasOwnProperty(property)){
+    if(object.hasOwnProperty(property)){
         return true;
     }
     return false;
