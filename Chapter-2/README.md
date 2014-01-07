@@ -48,4 +48,4 @@ div.foo
     <p>It's even nicer in here.</p>
 </div>
 ```
-<table><tr><td><a href="../Chapter-2/README.md">&larr; Previous</a></td><td><a href="../Chapter-3/README.md" >Next &rarr;</a></td></tr></table>
+<table><tr><td><a href="../Chapter-1/README.md">&larr; Previous</a></td><td><a href="../Chapter-3/README.md" >Next &rarr;</a></td></tr></table>
