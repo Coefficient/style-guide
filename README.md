@@ -13,3 +13,5 @@
 #### [Chapter 5: SASS Styleguide](Chapter-5/README.md)
 
 #### [Chapter 6: AngularJS Styleguide](Chapter-6/README.md)
+
+#### [Chapter 7: Language](Chapter-7/README.md)
