@@ -45,4 +45,18 @@ Selectors should be nested in the following heirarchy, the idea being that selec
 
 ```
 
+5. Properties within selectors should be ordered in the following manner:
+ - @extend
+ - whatever properties
+ - @include (mixins)
+ - 
+ 
+```sass
+.to {
+    @extend %go;
+    border: 1px solid grey;
+    @include boldly;
+}
+```
+
 <table><tr><td><a href="../Chapter-4/README.md">&larr; Previous</a></td><td><a href="../Chapter-6/README.md">Next &rarr;</a></td></tr></table>
