@@ -19,7 +19,7 @@ Selectors should be nested in the following heirarchy, the idea being that selec
  1. HTML tags: `<table>`, `<p>`, `<form>`, etc.
  2. Classes: `.voyager`, `.deep-space-nine`, `.enterprise`, etc., [excluding references to parent selectors](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#referencing_parent_selectors_).
  3. References to parent selectors are at the bottom, whether they are a psuedo selector (`:hover`), or a chained class (`.rio-grande`)
- 4. The heiarchy resets within each nest selector
+ 4. The heiarchy resets within each nested selector
 
 ```sass
 .enterprise {
