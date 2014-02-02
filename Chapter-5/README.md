@@ -49,7 +49,6 @@ Selectors should be nested in the following heirarchy, the idea being that selec
  - @extend
  - whatever properties
  - @include (mixins)
- - 
  
 ```sass
 .to {
