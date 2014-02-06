@@ -65,4 +65,8 @@ $q.all(arrayOfRequests).then(
 );
 ```
 
+- HTML that contains directives, should have some sort of order, generally speaking, try and put all the directives at the end of the tag, after basic HTML attributes.
+
+`<div class="foo bar" title="something" ng-click="clickThing()"></div>`
+
 <table><tr><td><a href="../Chapter-5/README.md">&larr; Previous</a></td><td><a href="../Chapter-7/README.md">Next &rarr;</a></td></tr></table>
