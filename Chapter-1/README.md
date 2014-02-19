@@ -4,7 +4,7 @@
 2. ID's should only be used under the following circumstances:
   * Performance implications
   * 3rd party library requires it
-3. Use 2 spaces per tab.
+3. Use 4 spaces per tab.
 4. Use .html extension.
 5. Try to prefix all javascript-based selectors with `js-`. This is taken from [slightly obtrusive javascript](http://ozmm.org/posts/slightly_obtrusive_javascript.html). The idea is that you should be able to tell a presentational class from a functional class. Although we are moving towards a one page app with AngularJS, and this point becomes moot, some of the codebase still uses jQuery.
 
