@@ -12,16 +12,14 @@
 
     var moduleName = 'app.foo.bar',
 
-        dependencies = [
-            'angular',
-            'ui.router'
-        ],
-
         angularDependencies = [
             'ui.router'
         ];
 
-    define(dependencies, function(angular) {
+    define([
+        'angular',
+        'ui.router'
+    ], function(angular) {
 
         var module = angular.module(moduleName, angularDependencies);
 
